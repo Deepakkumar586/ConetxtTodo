@@ -1,6 +1,7 @@
 import {createContext, useContext} from "react"
 
 export const TodoContext = createContext({
+    // all Todos Structure
     todos: [
         {
             id: 1,
