@@ -16,8 +16,11 @@ export const TodoContext = createContext({
 })
 
 
+// custom Hooks
 export const useTodo = () => {
     return useContext(TodoContext)
 }
 
+
+// Todo Provider
 export const TodoProvider = TodoContext.Provider
